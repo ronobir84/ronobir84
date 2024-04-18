@@ -7,7 +7,7 @@
 
    <div>
    <ul>
-   <li>👨‍💻 All of my projects are available at <li>
+   <li>👨‍💻 All of my projects are available at </li>
    <li>💬 Ask me about Frontend development & Junior Software Developer</li>
    <li>📫 How to reach me</li>
    <li>📄 Know about my experiences </li> 
