@@ -7,10 +7,10 @@
 
    <div>
    <ul>
-   <li>👨‍💻 All of my projects are available at <a href="https://ronobir-web.surge.sh/"></a><li>
+   <li>👨‍💻 All of my projects are available at <li><a href="https://ronobir-web.surge.sh/"></a>
    <li>💬 Ask me about Frontend development & Junior Software Developer</li>
-   <li>📫 How to reach me <a href="priashdas84@gmail.com"></a></li>
-   <li>📄 Know about my experiences <a href="https://docs.google.com/document/d/1wMPLnOuszzeIPOdX2i9E9LxF4KBWQsdwWwyn7Oi8Uow/edit"></a></li>
+   <li>📫 How to reach me </li><a href="priashdas84@gmail.com"></a>
+   <li>📄 Know about my experiences </li><a href="https://docs.google.com/document/d/1wMPLnOuszzeIPOdX2i9E9LxF4KBWQsdwWwyn7Oi8Uow/edit"></a>
    
    </ul>
    
