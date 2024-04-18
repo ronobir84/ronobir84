@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .food{
+            border: 2px solid tomato;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: aquamarine;
+        }
+        .food img{
+            width: 100%;
+        }
+        /* @media screen and (max-width:576px;) { */
+        .container{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        @media screen and (min-width: 576px) and (max-width:992px) {
+            .container{
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+        <!-- .container>.food*>img[src="images/image.png"]+h3{food Item - $}+p{Price: \$$00}+p>lorem20^btn{Bay.Now} -->
+        <div class="container">
+            <div class="food">
+                <img src="images/image.png" alt="">
+                <h3>food Item - 1</h3>
+                <p>Price: $100</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur iste beatae nostrum repellendus eum commodi sunt voluptas nihil, laudantium cumque.</p>
+                <button>Bay.Now</button>
+            </div>
+            <div class="food">
+                <img src="images/image.png" alt="">
+                <h3>food Item - 2</h3>
+                <p>Price: $200</p>
+                <p>Dolores, assumenda iusto explicabo similique quo ullam culpa architecto magni, molestias laudantium, quam obcaecati quaerat quas itaque ex ea doloribus.</p>
+                <button>Bay.Now</button>
+            </div>
+            <div class="food">
+                <img src="images/image.png" alt="">
+                <h3>food Item - 3</h3>
+                <p>Price: $300</p>
+                <p>Fugit, obcaecati a nulla reprehenderit, inventore, modi odit qui consectetur perspiciatis quasi incidunt consequuntur minima! Reprehenderit perspiciatis rerum fugiat ipsa.</p>
+                <button>Bay.Now</button>
+            </div>
+            <div class="food">
+                <img src="images/image.png" alt="">
+                <h3>food Item - 4</h3>
+                <p>Price: $400</p>
+                <p>Deleniti minus obcaecati vero doloremque in, temporibus excepturi quia assumenda! Unde fugit cumque impedit consequatur architecto corrupti ad vitae dolores.</p>
+                <button>Bay.Now</button>
+            </div>
+            <div class="food">
+                <img src="images/image.png" alt="">
+                <h3>food Item - 5</h3>
+                <p>Price: $500</p>
+                <p>Veritatis earum ipsa totam, voluptate nostrum minima. Nesciunt dolore ipsum nostrum quasi nam veritatis! Porro architecto nemo ab veritatis rerum.</p>
+                <button>Bay.Now</button>
+            </div>
+            <div class="food">
+                <img src="images/image.png" alt="">
+                <h3>food Item - 6</h3>
+                <p>Price: $600</p>
+                <p>Ipsa facere debitis architecto blanditiis cumque ullam fuga tenetur magnam accusamus, dicta optio dignissimos laudantium repellat sapiente, possimus, doloremque dolor?</p>
+                <button>Bay.Now</button>
+            </div>
+            <div class="food">
+                <img src="images/image.png" alt="">
+                <h3>food Item - 7</h3>
+                <p>Price: $700</p>
+                <p>Quas sint nisi exercitationem fugit similique labore? Delectus nihil ipsum tempore distinctio natus laboriosam minima sunt labore. Aliquid, beatae doloremque?</p>
+                <button>Bay.Now</button>
+            </div>
+            <div class="food">
+                <img src="images/image.png" alt="">
+                <h3>food Item - 8</h3>
+                <p>Price: $800</p>
+                <p>Blanditiis, expedita quibusdam. Quisquam dolore hic iure culpa nam modi architecto fugit nobis. Minus, minima tempore obcaecati porro sapiente eveniet!</p>
+                <button>Bay.Now</button>
+            </div>
+            <div class="food">
+                <img src="images/image.png" alt="">
+                <h3>food Item - 9</h3>
+                <p>Price: $900</p>
+                <p>Atque asperiores voluptatum, recusandae tempore debitis, cumque officia quas, commodi quo minima laudantium repellendus odit voluptates consequuntur laboriosam numquam obcaecati!</p>
+                <button>Bay.Now</button>
+            </div>
+            <div class="food">
+                <img src="images/image.png" alt="">
+                <h3>food Item - 10</h3>
+                <p>Price: $1000</p>
+                <p>Quam quaerat incidunt at reiciendis voluptatem deleniti commodi rem ex reprehenderit eos ducimus, provident fuga iure nam suscipit? Cupiditate, atque.</p>
+                <button>Bay.Now</button>
+            </div>
+            <div class="food">
+                <img src="images/image.png" alt="">
+                <h3>food Item - 11</h3>
+                <p>Price: $1100</p>
+                <p>Labore ipsam quos obcaecati, nisi delectus mollitia beatae hic tenetur culpa similique dolores maiores, iure assumenda voluptas consectetur nulla autem.</p>
+                <button>Bay.Now</button>
+            </div>
+            <div class="food">
+                <img src="images/image.png" alt="">
+                <h3>food Item - 12</h3>
+                <p>Price: $1200</p>
+                <p>Animi saepe iste quae illo, eius reprehenderit enim laboriosam ipsum nemo rerum voluptas quibusdam voluptate fugit mollitia odio nihil dolores?</p>
+                <button>Bay.Now</button>
+            </div>
+        </div>
+            </div>
+        </div>
+</body>
+</html>
